@@ -5,18 +5,21 @@
     <title> The Brick Store: Shipping</title>
   </head>
   <body>
-    <h1> Shipping </h1>
+    <h1> Billing </h1>
   <main>
     <form aria-labelledby="label-shipping" name="shipping" action="../confirmation/" method="get">
       <ol>
-        <li><label for="country">Country</label>
-          <input type="text" name="country" value="" autocomplete="country" />
+        <li><label for="card number">Card Number</label>
+          <input type="tel" inputmode="numeric" name="card number" value="" autocomplete="card number" maxlength="19"/>
         </li>
         <li><label for="Full Name">Full Name</label>
           <input type="text" name="Full Name" value="" autocomplete="name" />
         </li>
-        <li><label for="Phone Number">Phone Number</label>
-          <input type="tel" name="Phone Number" value="" autocomplete="phone number" />
+        <li><label for="card name">Card Number</label>
+          <input type="text" name="card name" value="" autocomplete="card name" />
+        </li>
+        <li><label for="experation">EXP</label>
+          <input type="text" name="experation" value="" autocomplete="experation" />
         </li>
         <li><label for="address">Address</label>
           <input type="text" name="address" value="" autocomplete="address" />
@@ -31,7 +34,7 @@
           <input type="ZIP" name="country" value="" autocomplete="zip code" />
         </li>
       </ol>
-        <button type="submit" name="ctb" class="forward">Countine To Billing</button>
+        <button type="submit" name="ctc" class="forward">Countine To Confirmation</button>
     </form>
   </main>
   <footer>
