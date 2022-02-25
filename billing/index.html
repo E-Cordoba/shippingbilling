@@ -8,33 +8,35 @@
     <h1> Billing </h1>
   <main>
     <form aria-labelledby="label-shipping" name="shipping" action="../confirmation/" method="get">
-      <ol>
-        <li><label for="card number">Card Number</label>
-          <input type="tel" inputmode="numeric" name="card number" value="" autocomplete="card number" maxlength="19"/>
-        </li>
-        <li><label for="Full Name">Full Name</label>
-          <input type="text" name="Full Name" value="" autocomplete="name" />
-        </li>
-        <li><label for="card name">Card Number</label>
-          <input type="text" name="card name" value="" autocomplete="card name" />
-        </li>
-        <li><label for="experation">EXP</label>
-          <input type="text" name="experation" value="" autocomplete="experation" />
-        </li>
-        <li><label for="address">Address</label>
-          <input type="text" name="address" value="" autocomplete="address" />
-        </li>
-        <li><label for="city">City</label>
-          <input type="text" name="city" value="" autocomplete="city" />
-        </li>
-        <li><label for="state">State</label>
-          <input type="text" name="state" value="" autocomplete="state" />
-        </li>
-        <li><label for="zip">ZIP</label>
-          <input type="ZIP" name="country" value="" autocomplete="zip code" />
-        </li>
-      </ol>
+      <fieldset>
+        <ol>
+          <li><label for="card number">Card Number</label>
+            <input type="tel" inputmode="numeric" name="card number" value="" autocomplete="card number" maxlength="19"/>
+          </li>
+          <li><label for="Full Name">Full Name</label>
+            <input type="text" name="Full Name" value="" autocomplete="name" />
+          </li>
+          <li><label for="card name">Card Number</label>
+            <input type="text" name="card name" value="" autocomplete="card name" />
+          </li>
+          <li><label for="experation">EXP</label>
+            <input type="text" name="experation" value="" autocomplete="experation" />
+          </li>
+          <li><label for="address">Address</label>
+            <input type="text" name="address" value="" autocomplete="address" />
+          </li>
+          <li><label for="city">City</label>
+            <input type="text" name="city" value="" autocomplete="city" />
+          </li>
+          <li><label for="state">State</label>
+            <input type="text" name="state" value="" autocomplete="state" />
+          </li>
+          <li><label for="zip">ZIP</label>
+            <input type="ZIP" name="country" value="" autocomplete="zip code" />
+          </li>
+        </ol>
         <button type="submit" name="ctc" class="forward">Countine To Confirmation</button>
+      </fieldset>
     </form>
   </main>
   <footer>
