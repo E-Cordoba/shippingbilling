@@ -7,3 +7,17 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+html {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 1.5em;
+  line-height: 1.7;
+  background-color: #8EE4AF;
+  font: #EDF5E1;
+}
+h1 {
+  font-size: 3em;
+  background-color: #8B0000;
+}
+footer {
+  background-color: #05386B;
+}
