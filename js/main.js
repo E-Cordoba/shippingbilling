@@ -2,7 +2,7 @@
 
 function billingAutofill(){
 		if (document.getElementById('autofill').checked){
-     var address =  document.getElementById('name').value;
+     var address =  document.getElementById('address').value;
       var zip = document.getElementById('zip').value;
       var city =  document.getElementById('city').value;
        var state = document.getElementById('state').value;
