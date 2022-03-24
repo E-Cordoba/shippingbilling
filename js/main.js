@@ -1,9 +1,11 @@
 
 
 function billingAutofill(){
-		if (document.getElementById('same').checked){
-     var shippingName =  document.getElementById('shippingName').value;
-      var shippingZip = document.getElementById('shippingZip').value;
+		if (document.getElementById('autofill').checked){
+     var address =  document.getElementById('name').value;
+      var zip = document.getElementById('zip').value;
+      var city =  document.getElementById('city').value;
+       var state = document.getElementById('state').value;
 
      document.getElementById('billingaddress').value = address;
       document.getElementById('billingzip').value = zip;
