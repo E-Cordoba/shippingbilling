@@ -32,6 +32,8 @@ img{
 input{
   border: 2px black;
   border-radius: 4px;
+  font-size: inherit;
+  font-family: inherit;
 }
 form{
   padding: 2em,1em,1em;

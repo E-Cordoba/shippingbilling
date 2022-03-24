@@ -11,6 +11,8 @@
     <form aria-labelledby="label-billing" name="billing" action="../confirmation/" method="get">
       <fieldset>
         <ol>
+          <li><label for="autofill"> Check if Shipping Info is the Same</label>
+            <input type="checkbox" id="autofill" name=autofill onchange="billingAutofill()"/>
           <li><label for="cardnumber">Card Number</label>
             <input type="text" inputmode="numeric" name="cardnumber" value="" autocomplete="cc-number" maxlength="19" required/>
           </li>
